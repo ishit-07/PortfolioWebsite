@@ -1,3 +1,5 @@
+import profilepic from "../assets/photo_2024-06-23_21-54-33.jpg"
+
 const Hero = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
@@ -19,6 +21,11 @@ const Hero = () => {
               expertise to create innovative solutions that drive business
               growth and deliver exceptional user experiences.
             </p>
+          </div>
+        </div>
+        <div className="w-full lg:w-1/2 lg:p-8">
+          <div className="flex justify-center ">
+            <img className="rounded-3xl" src={profilepic} alt="Ishit Verma" />
           </div>
         </div>
       </div>
