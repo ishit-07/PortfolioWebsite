@@ -1,5 +1,6 @@
 import profilepic from "../assets/photo_2024-06-23_21-54-33.jpg"
 import { HERO_TEXT } from "../constants";
+import {motion} from "framer-motion"
 
 const Hero = () => {
   return (
