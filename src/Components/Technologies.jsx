@@ -2,43 +2,86 @@ import { DiMongodb, DiPostgresql } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandCpp, TbBrandNextjs } from "react-icons/tb";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const iconAnimation = (duration) => ({
-    initial: {y: -10,},
-    animate: {
-        y
-    }
-})
+  initial: { y: -10 },
+  animate: {
+    y: [10, -10],
+    transition: {
+      duration: duration,
+      ease: "linear",
+      repeat: Infinity,
+      repeatType: "reverse",
+    },
+  },
+});
 
 const Technologies = () => {
   return (
     <div className="border-b border-neutral-900 pb-24">
-      <h1 className="text-center text-4xl my-20">Technologies</h1>
+      <motion.h1
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{opacity: 0, y: -100}}
+        transition={{duration: 1.5}}
+        className="text-center text-4xl my-20"
+      >
+        Technologies
+      </motion.h1>
       <motion.div
-        whileInView={{opacity: 1, x: 0}}
-        initial={{x: -100, opacity: 0}}
-        transition={{duration: 0.5}}
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ x: -100, opacity: 0 }}
+        transition={{ duration: 1.5 }}
         className="flex items-center justify-center flex-wrap gap-4"
       >
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        <motion.div
+          variants={iconAnimation(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <RiReactjsLine className="text-7xl text-cyan-400" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        </motion.div>
+        <motion.div
+          variants={iconAnimation(2.1)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <TbBrandNextjs className="text-7xl" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        </motion.div>
+        <motion.div
+          variants={iconAnimation(1.7)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <DiMongodb className="text-7xl text-green-500" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        </motion.div>
+        <motion.div
+          variants={iconAnimation(1.3)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <TbBrandCpp className="text-7xl text-cyan-400" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        </motion.div>
+        <motion.div
+          variants={iconAnimation(1)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <FaNodeJs className="text-7xl text-green-400" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        </motion.div>
+        <motion.div
+          variants={iconAnimation(0.6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
           <DiPostgresql className="text-7xl text-sky-700" />
-        </div>
+        </motion.div>
       </motion.div>
     </div>
   );
