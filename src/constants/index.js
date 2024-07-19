@@ -45,6 +45,7 @@ export const PROJECTS = [
 content. Incorporated a JSON server for efficient handling of blog operations including deletion, addition, and
 retrieval`,
     technologies: ["Javascirpt", "React", "JSON"],
+    link: "https://github.com/ishit-07/Blogger",
   },
   {
     title: "Weather App",
@@ -54,6 +55,7 @@ locations, featuring current conditions and multi-day forecasts with dynamic upd
 weather details for their chosen locations.
 `,
     technologies: ["Javascirpt", "HTML", "CSS", "API"],
+    link: "https://github.com/ishit-07/Weather-app",
   },
   {
     title: "Tic Tac Toe",
@@ -62,11 +64,13 @@ weather details for their chosen locations.
 of your marks in a row, either horizontally, vertically, or diagonally, while preventing your opponent from doing the
 same`,
     technologies: ["HTML", "CSS", "Javascirpt"],
+    link: "https://github.com/ishit-07/TicTacToe",
   },
   {
     title: "ASUS ROG Website",
     image: Asus,
     description: "This website is a clone of Asus Rog website.",
     technologies: ["HTML", "CSS"],
+    link: "https://github.com/ishit-07/Asus-ROG",
   },
 ];
