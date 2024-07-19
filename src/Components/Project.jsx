@@ -14,8 +14,9 @@ const Project = () => {
       </motion.h1>
       <div>
         {PROJECTS.map((project, index) => (
-          <a key={index} href={project.link} className="flex flex-wrap mb-8 lg:justify-center">
-            <motion.div
+          <div key={index} className="flex flex-wrap mb-8 lg:justify-center">
+            <motion.a
+              href={project.link}
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 0.5 }}
@@ -27,7 +28,7 @@ const Project = () => {
                 height={200}
                 className="rounded mb-6"
               />
-            </motion.div>
+            </motion.a>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
@@ -45,7 +46,7 @@ const Project = () => {
                 </span>
               ))}
             </motion.div>
-          </a>
+          </div>
         ))}
       </div>
     </diV>
