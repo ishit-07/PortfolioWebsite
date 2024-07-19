@@ -2,6 +2,7 @@ import blogger from "../assets/blogger.png";
 import Weather from "../assets/Weather.png";
 import tictactoe from "../assets/TicTacToe.png";
 import Asus from "../assets/AsusROG.png";
+import Portfolio from "../assets/Portfolio.png";
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. Having recently completed my studies, I have gained experience working with technologies like React, Node.js, and Express.js through various projects and internship. My journey in web development began with a deep curiosity for how things work, and it has evolved into a pursuit where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -22,6 +23,14 @@ industry best practices and the software development lifecycle.`,
 ];
 
 export const PROJECTS = [
+  {
+    title: "Portfolio",
+    image: Portfolio,
+    description:
+      "My portfolio website, built with React and styled with Tailwind CSS, showcases my skills, projects, and professional journey. Enjoy a responsive, modern design with easy navigation and detailed insights into my work and experience",
+    technologies: ["Tailwind", "React", "Framer-motion"],
+    link: "https://github.com/ishit-07/PortfolioWebsite",
+  },
   {
     title: "Blogger",
     image: blogger,
