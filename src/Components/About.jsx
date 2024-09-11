@@ -8,7 +8,7 @@ const About = () => {
       <h1 className="my-20 text-center text-4xl">
         About <span className="text-neutral-500">Me</span>
       </h1>
-       <div className="">
+       < <div className="">
         {/* <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ x: -100, opacity: 0 }}
@@ -30,6 +30,7 @@ const About = () => {
               {ABOUT_TEXT}
             </p>
           </motion.div>
+        </div>
       </div>
     </div>
   );
