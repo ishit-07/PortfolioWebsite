@@ -43,14 +43,14 @@ const Technologies = () => {
         >
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
-        <motion.div
+{/*         <motion.div
           variants={iconAnimation(2.1)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiExpress className="text-7xl" />
-        </motion.div>
+        </motion.div> */}
         <motion.div
           variants={iconAnimation(1.7)}
           initial="initial"
@@ -75,14 +75,14 @@ const Technologies = () => {
         >
           <FaNodeJs className="text-7xl text-[#649f64]" />
         </motion.div>
-        <motion.div
+{/*         <motion.div
           variants={iconAnimation(0.6)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <DiPostgresql className="text-7xl text-sky-700" />
-        </motion.div>
+        </motion.div> */}
       </motion.div>
     </div>
   );
