@@ -8,8 +8,8 @@ const About = () => {
       <h1 className="my-20 text-center text-4xl">
         About <span className="text-neutral-500">Me</span>
       </h1>
-      <div className="flex flex-wrap">
-        <motion.div
+       <div className="">
+        {/* <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ x: -100, opacity: 0 }}
           transition={{ duration: 0.5 }}
@@ -18,19 +18,18 @@ const About = () => {
           <div className="flex justify-center items-center">
             <img className="rounded-2xl" height={500} width={450} src={logo} alt="about" />
           </div>
-        </motion.div>
-        <div className="w-full lg:w-1/2">
+        </motion.div> */}
+        <div className="w-full">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ x: 100, opacity: 0 }}
             transition={{ duration: 0.5 }}
             className="flex justify-center lg:justify-start"
           >
-            <p className="text-justify my-2 max-w-xl py-6 tracking-tight font-light">
+            <p className="text-justify my-2 max-w-xl py-6 tracking-tight font-light mx-auto">
               {ABOUT_TEXT}
             </p>
           </motion.div>
-        </div>
       </div>
     </div>
   );
