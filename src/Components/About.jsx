@@ -24,7 +24,11 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ x: 100, opacity: 0 }}
             transition={{ duration: 0.5 }}
+<<<<<<< HEAD
             className="flex justify-center "
+=======
+            className="flex justify-center"
+>>>>>>> 001ce568508b8d0d0731e3aded2909653c29eb6b
           >
             <p className="text-justify my-2 max-w-xl py-6  font-light">
               {ABOUT_TEXT}
