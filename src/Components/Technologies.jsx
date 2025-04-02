@@ -1,4 +1,4 @@
-import { DiPostgresql } from "react-icons/di";
+// import { DiPostgresql } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandCpp } from "react-icons/tb";
@@ -75,14 +75,14 @@ const Technologies = () => {
         >
           <FaNodeJs className="text-7xl text-[#649f64]" />
         </motion.div>
-        <motion.div
+        {/* <motion.div
           variants={iconAnimation(0.6)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <DiPostgresql className="text-7xl text-sky-700" />
-        </motion.div>
+        </motion.div> */}
       </motion.div>
     </div>
   );
