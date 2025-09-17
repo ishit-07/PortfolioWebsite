@@ -3,12 +3,31 @@ import Weather from "../assets/Weather.png";
 import tictactoe from "../assets/TicTacToe.png";
 import Asus from "../assets/AsusROG.png";
 import Portfolio from "../assets/Portfolio.png";
+import realTimeChatApp from "../assets/realTimeChatApp.png";
+import HousitizeEstate from "../assets/HousitizeEstate.png";
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. Having recently completed my studies, I have gained experience working with technologies like React, Node.js, and Express.js through various projects and internship. My journey in web development began with a deep curiosity for how things work, and it has evolved into a pursuit where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. Having recently completed my studies, I have gained experience working with technologies like React, Next.js, Tailwind CSS,  Node.js, Express.js and MongoDB through various projects and internship. My journey in web development began with a deep curiosity for how things work, and it has evolved into a pursuit where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
-export const HERO_TEXT = `Results-oriented and recently graduated full-stack developer proficient in building scalable web applications. Possessing a strong skill set in front-end development with HTML, CSS, JavaScript, React, Tailwind CSS, and back-end development using Node.js and Express.js, gained through practical projects and an internship. Committed to applying technical knowledge and enthusiasm to drive business growth and create impactful user experiences.`;
+export const HERO_TEXT = `Results-oriented and recently graduated full-stack developer proficient in building scalable web applications. Possessing a strong skill set in front-end development with HTML, CSS, JavaScript, React, Tailwind CSS, and back-end development using Node.js, Express.js and MongoDB, gained through practical projects and an internship. Committed to applying technical knowledge and enthusiasm to drive business growth and create impactful user experiences.`;
 
 export const EXPERIENCE = [
+  {
+    year: "May 2024 - Present",
+    role: "Remote",
+    company: "Freelance Full-Stack Developer",
+    description: `Developed 2+ end-to-end web solutions including landing pages, portfolios, and admin dashboards using React,
+ Tailwind CSS, Next.js, Node.js, and Express.js. Optimized server and client-side performance, achieving up to 35% faster load times through lazy loading, caching
+ strategies, and code splitting. Constructed and integrated over 10 RESTful APIs with robust state management using React Context.`,
+    technologies: [
+      "Javascript",
+      "Tailwind CSS",
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
+  },
   {
     year: "August 2023 - October 2023",
     role: "Intern",
@@ -24,10 +43,40 @@ industry best practices and the software development lifecycle.`,
 
 export const PROJECTS = [
   {
+    title: "Housitize Estate",
+    image: HousitizeEstate,
+    description:
+      "We built a full-stack real estate platform from scratch as a Freelance Developer using Next.js, Express.js, Node.js, MongoDB, and Redux Toolkit. Implemented property listings, search & filter, authentication and Form validation with a responsive, user-friendly interface.",
+    technologies: [
+      "Next.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Redux Toolkit",
+    ],
+    link: "https://www.housitizeestate.com",
+  },
+  {
+    title: "Real-Time Chat App",
+    image: realTimeChatApp,
+    description:
+      "Enabled real-time messaging with Socket.io, supporting simultaneous conversations among 50+ users. Secured authentication and authorisation using JWT and Express middleware, eliminating unauthorised access. Crafted a responsive UI using React and Tailwind CSS, achieving a 95+ accessibility score on Lighthouse.",
+    technologies: [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Socket.io",
+    ],
+    link: "https://github.com/ishit-07/PortfolioWebsite",
+  },
+  {
     title: "Portfolio",
     image: Portfolio,
     description:
-      "My portfolio website, built with React and styled with Tailwind CSS, showcases my skills, projects, and professional journey. Enjoy a responsive, modern design with easy navigation and detailed insights into my work and experience",
+      "My portfolio website, built with React and styled with Tailwind CSS, showcases my skills, projects, and professional journey. Enjoy a responsive, modern design with easy navigation and detailed insights into my work and experience.",
     technologies: ["Tailwind", "React", "Framer-motion"],
     link: "https://github.com/ishit-07/PortfolioWebsite",
   },
