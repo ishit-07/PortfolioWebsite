@@ -55,7 +55,7 @@ export const PROJECTS = [
       "MongoDB",
       "Redux Toolkit",
     ],
-    link: "https://www.housitizeestate.com",
+    link: "https://housitize-vgnu.vercel.app/",
   },
   {
     title: "Real-Time Chat App",
