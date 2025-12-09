@@ -12,6 +12,22 @@ export const HERO_TEXT = `Results-oriented and recently graduated full-stack dev
 
 export const EXPERIENCE = [
   {
+    year: "Sep 2025 - Present",
+    role: "Full-Stack Developer",
+    company: "Housitize Estate",
+    description: `Built and maintained full-stack web applications including a Real Estate platform, a Medicine E-commerce website (similar to Tata 1mg), and a Cloud Service platform. Developed both frontend and backend systems with secure authentication, dynamic routing, and optimized performance. Created feature-rich admin panels for product, property, order, and user management to streamline business operations. Enhanced application performance and UX with efficient API integration, Redux state management, and server-side rendering.`,
+    technologies: [
+      "JavaScript",
+      "React.js",
+      "Next.js",
+      "Redux",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
+  },
+  {
     year: "May 2024 - Present",
     role: "Remote",
     company: "Freelance Full-Stack Developer",
