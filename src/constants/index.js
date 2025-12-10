@@ -86,7 +86,7 @@ export const PROJECTS = [
       "MongoDB",
       "Socket.io",
     ],
-    link: "https://github.com/ishit-07/PortfolioWebsite",
+    link: "https://github.com/ishit-07/RealTime_ChatAPP",
   },
   {
     title: "Portfolio",
