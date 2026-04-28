@@ -5,10 +5,12 @@ import Asus from "../assets/AsusROG.png";
 import Portfolio from "../assets/Portfolio.png";
 import realTimeChatApp from "../assets/realTimeChatApp.png";
 import HousitizeEstate from "../assets/HousitizeEstate.png";
+import financialDashboard from "../assets/financial-dashboard.png";
+import repomindAnalysis from "../assets/repomind-analysis.png";
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. Having recently completed my studies, I have gained experience working with technologies like React, Next.js, Tailwind CSS,  Node.js, Express.js and MongoDB through various projects and internship. My journey in web development began with a deep curiosity for how things work, and it has evolved into a pursuit where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a full-stack developer focused on building responsive, production-ready web applications with React, Next.js, Tailwind CSS, Node.js, Express.js, and MongoDB. My recent work includes SaaS-style dashboards, real-time applications, admin panels, and GenAI products that combine RAG, AST-based code analysis, and LLM integrations. I enjoy turning complex product requirements into clean user experiences, scalable APIs, and maintainable systems that feel fast and reliable across devices.`;
 
-export const HERO_TEXT = `Results-oriented and recently graduated full-stack developer proficient in building scalable web applications. Possessing a strong skill set in front-end development with HTML, CSS, JavaScript, React, Tailwind CSS, and back-end development using Node.js, Express.js and MongoDB, gained through practical projects and an internship. Committed to applying technical knowledge and enthusiasm to drive business growth and create impactful user experiences.`;
+export const HERO_TEXT = `Full-stack developer building modern web products with React, Next.js, Tailwind CSS, Node.js, Express.js, and MongoDB. I create responsive dashboards, real-time apps, and GenAI-powered tools with practical focus on clean UI, strong data flows, API design, and reliable user experiences.`;
 
 export const EXPERIENCE = [
   {
@@ -35,7 +37,7 @@ export const EXPERIENCE = [
  Tailwind CSS, Next.js, Node.js, and Express.js. Optimized server and client-side performance, achieving up to 35% faster load times through lazy loading, caching
  strategies, and code splitting. Constructed and integrated over 10 RESTful APIs with robust state management using React Context.`,
     technologies: [
-      "Javascript",
+      "JavaScript",
       "Tailwind CSS",
       "React.js",
       "Next.js",
@@ -53,25 +55,26 @@ performance, and integrating new features using HTML5, CSS3, and JavaScript, inc
 I collaborated closely with the development team, participated in code reviews, and provided solutions to enhance
 project efficiency. This experience honed my frontend development skills and provided valuable insights into
 industry best practices and the software development lifecycle.`,
-    technologies: ["Javascript", "React.js"],
+    technologies: ["JavaScript", "React.js"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "Housitize Estate",
-    image: HousitizeEstate,
+    title: "Repomind",
+    image: repomindAnalysis,
     description:
-      "We built a full-stack real estate platform from scratch as a Freelance Developer using Next.js, Express.js, Node.js, MongoDB, and Redux Toolkit. Implemented property listings, search & filter, authentication and Form validation with a responsive, user-friendly interface.",
+      "An AI-powered codebase assistant that ingests public GitHub repositories and lets users explore them through natural language. It combines Next.js, Express.js, MongoDB, Gemini, RAG, Babel AST parsing, dependency graphs, file trees, and Mermaid diagrams for deeper repository understanding.",
     technologies: [
       "Next.js",
-      "Tailwind CSS",
       "Node.js",
       "Express.js",
       "MongoDB",
-      "Redux Toolkit",
+      "Gemini AI",
+      "RAG",
+      "AST",
     ],
-    link: "https://housitize-vgnu.vercel.app/",
+    link: "https://github.com/ishit-07/Repomind",
   },
   {
     title: "Real-Time Chat App",
@@ -89,6 +92,36 @@ export const PROJECTS = [
     link: "https://github.com/ishit-07/RealTime_ChatAPP",
   },
   {
+    title: "Financial Dashboard",
+    image: financialDashboard,
+    description:
+      "A production-quality finance dashboard built with React, Vite, Tailwind CSS, Zustand, and Recharts. It supports transaction CRUD, role-based Admin and Viewer modes, advanced filters, responsive analytics, anomaly insights, dark mode, local persistence, and one-click CSV export.",
+    technologies: [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Zustand",
+      "Recharts",
+      "JavaScript",
+    ],
+    link: "https://financial-dashboard-sandy-omega.vercel.app",
+  },
+  {
+    title: "Housitize Estate",
+    image: HousitizeEstate,
+    description:
+      "We built a full-stack real estate platform from scratch as a Freelance Developer using Next.js, Express.js, Node.js, MongoDB, and Redux Toolkit. Implemented property listings, search & filter, authentication and Form validation with a responsive, user-friendly interface.",
+    technologies: [
+      "Next.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Redux Toolkit",
+    ],
+    link: "https://housitize-vgnu.vercel.app/",
+  },
+  {
     title: "Portfolio",
     image: Portfolio,
     description:
@@ -102,7 +135,7 @@ export const PROJECTS = [
     description: `Created a React-based blog website enabling users to add, read, and delete blogs, as well as showcase their own
 content. Incorporated a JSON server for efficient handling of blog operations including deletion, addition, and
 retrieval`,
-    technologies: ["Javascirpt", "React", "JSON"],
+    technologies: ["JavaScript", "React", "JSON"],
     link: "https://github.com/ishit-07/Blogger",
   },
   {
@@ -112,7 +145,7 @@ retrieval`,
 locations, featuring current conditions and multi-day forecasts with dynamic updates.The app utilizes API to fetch weather data, offering an interactive and user-friendly interface for users to access
 weather details for their chosen locations.
 `,
-    technologies: ["Javascirpt", "HTML", "CSS", "API"],
+    technologies: ["JavaScript", "HTML", "CSS", "API"],
     link: "https://github.com/ishit-07/Weather-app",
   },
   {
@@ -121,7 +154,7 @@ weather details for their chosen locations.
     description: ` It is a classic two-player game where players take turns marking X or O on a 3x3 grid. The objective is to get three
 of your marks in a row, either horizontally, vertically, or diagonally, while preventing your opponent from doing the
 same`,
-    technologies: ["HTML", "CSS", "Javascirpt"],
+    technologies: ["HTML", "CSS", "JavaScript"],
     link: "https://github.com/ishit-07/TicTacToe",
   },
   {
