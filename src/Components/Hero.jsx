@@ -48,6 +48,21 @@ const Hero = () => {
             >
               {HERO_TEXT}
             </motion.p>
+            <motion.div
+              variants={container(0.5)}
+              initial="hidden"
+              animate="visible"
+              className="flex justify-center lg:justify-start w-full"
+            >
+              <a
+                href="/Ishit_Verma_Resume_1.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 mb-8 inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 px-6 py-3 text-sm font-semibold text-white transition-all hover:scale-105 shadow-[0_0_20px_rgba(168,85,247,0.3)] hover:shadow-[0_0_30px_rgba(59,130,246,0.5)] border border-white/10"
+              >
+                View Resume
+              </a>
+            </motion.div>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8 mt-10 lg:mt-0">
